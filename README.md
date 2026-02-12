@@ -2,8 +2,6 @@
 
 A Terminal UI tool for pre-deployment validation. Checks your project for required files, configuration, and standards compliance before deploying.
 
-![Screenshot](screenshot.png)
-
 ## Features
 
 - ✅ **Visual Checklist** - See all requirements at a glance
@@ -14,36 +12,28 @@ A Terminal UI tool for pre-deployment validation. Checks your project for requir
 
 ## Installation
 
-### Quick Install (Recommended)
+### Via pipx (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourorg/deploy-checks/main/install.sh | bash
+pipx install git+https://github.com/Kathan511/deploy-checks.git
 ```
 
-### Via pip/pipx
+### Via pip
 
 ```bash
-# Using pipx (recommended for CLI tools)
-pipx install git+https://github.com/yourorg/deploy-checks.git
-
-# Using pip
-pip install git+https://github.com/yourorg/deploy-checks.git
-
-# Using uv
-uv tool install git+https://github.com/yourorg/deploy-checks.git
+pip install git+https://github.com/Kathan511/deploy-checks.git
 ```
 
-### Via Homebrew
+### Via uv
 
 ```bash
-brew tap yourorg/tools
-brew install deploy-check
+uv tool install git+https://github.com/Kathan511/deploy-checks.git
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/yourorg/deploy-checks.git
+git clone https://github.com/Kathan511/deploy-checks.git
 cd deploy-checks
 pip install -e .
 ```
@@ -159,7 +149,7 @@ FILE_TEMPLATES = {
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourorg/deploy-checks.git
+git clone https://github.com/Kathan511/deploy-checks.git
 cd deploy-checks
 
 # Install in dev mode

@@ -29,13 +29,13 @@ echo -e "${GREEN}✅ Python $PYTHON_VERSION found${NC}"
 # Determine install method
 if command -v pipx &> /dev/null; then
     echo -e "${YELLOW}📦 Installing via pipx...${NC}"
-    pipx install git+https://github.com/yourorg/deploy-checks.git
+    pipx install git+https://github.com/Kathan511/deploy-checks.git
 elif command -v uv &> /dev/null; then
     echo -e "${YELLOW}📦 Installing via uv...${NC}"
-    uv tool install git+https://github.com/yourorg/deploy-checks.git
+    uv tool install git+https://github.com/Kathan511/deploy-checks.git
 elif command -v pip &> /dev/null; then
     echo -e "${YELLOW}📦 Installing via pip...${NC}"
-    pip install --user git+https://github.com/yourorg/deploy-checks.git
+    pip install --user git+https://github.com/Kathan511/deploy-checks.git
 else
     echo -e "${RED}❌ No package manager found (pipx, uv, or pip required)${NC}"
     exit 1

@@ -35,9 +35,9 @@ dev = [
 deploy-check = "deploy_check.app:main"
 
 [project.urls]
-Homepage = "https://github.com/yourorg/deploy-checks"
-Repository = "https://github.com/yourorg/deploy-checks"
-Issues = "https://github.com/yourorg/deploy-checks/issues"
+Homepage = "https://github.com/Kathan511/deploy-checks"
+Repository = "https://github.com/Kathan511/deploy-checks"
+Issues = "https://github.com/Kathan511/deploy-checks/issues"
 
 [build-system]
 requires = ["hatchling"]
